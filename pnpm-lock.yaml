@@ -166,7 +166,7 @@ importers:
       jsrsasign: 10.6.1
       mfm-js: 0.23.3
       mime-types: 2.1.35
-      misskey-js: 0.0.15
+      misskey-js: github:cynagenautes/misskey.js
       ms: 3.0.0-canary.1
       nested-property: 4.0.0
       node-fetch: 3.3.0
@@ -274,7 +274,7 @@ importers:
       jsrsasign: 10.6.1
       mfm-js: 0.23.3
       mime-types: 2.1.35
-      misskey-js: 0.0.15
+      misskey-js: github.com/cynagenautes/misskey.js/9fe80c68760e483fca3af0891c06a3c4c92fcb3c
       ms: 3.0.0-canary.1
       nested-property: 4.0.0
       node-fetch: 3.3.0
@@ -446,7 +446,7 @@ importers:
       json5: 2.2.3
       matter-js: 0.19.0
       mfm-js: 0.23.3
-      misskey-js: 0.0.15
+      misskey-js: github:cynagenautes/misskey.js
       photoswipe: 5.3.6
       prismjs: 1.29.0
       punycode: 2.3.0
@@ -509,7 +509,7 @@ importers:
       json5: 2.2.3
       matter-js: 0.19.0
       mfm-js: 0.23.3
-      misskey-js: 0.0.15
+      misskey-js: github.com/cynagenautes/misskey.js/9fe80c68760e483fca3af0891c06a3c4c92fcb3c
       photoswipe: 5.3.6
       prismjs: 1.29.0
       punycode: 2.3.0
@@ -571,12 +571,12 @@ importers:
       eslint: 8.34.0
       eslint-plugin-import: 2.27.5
       idb-keyval: 6.2.0
-      misskey-js: 0.0.15
+      misskey-js: github:cynagenautes/misskey.js
       typescript: 4.9.5
     dependencies:
       esbuild: 0.14.42
       idb-keyval: 6.2.0
-      misskey-js: 0.0.15
+      misskey-js: github.com/cynagenautes/misskey.js/9fe80c68760e483fca3af0891c06a3c4c92fcb3c
     devDependencies:
       '@typescript-eslint/parser': 5.52.0_7kw3g6rralp5ps6mg3uyzz6azm
       '@typescript/lib-webworker': /@types/serviceworker/0.0.62
@@ -9563,8 +9563,10 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /misskey-js/0.0.15:
-    resolution: {integrity: sha512-sCfQcPooD5Tfe/5pDr5JojAthhGot+hlidw67tj+7+AtZO5He3kBhsjJydY0vru6w3RFM5mzYR6SYISSBR/1WQ==}
+  github.com/cynagenautes/misskey.js/9fe80c68760e483fca3af0891c06a3c4c92fcb3c:
+    resolution: {tarball: https://codeload.github.com/cynagenautes/misskey.js/tar.gz/9fe80c68760e483fca3af0891c06a3c4c92fcb3c}
+    name: misskey-js
+    version: 0.0.15
     dependencies:
       autobind-decorator: 2.4.0
       eventemitter3: 4.0.7
